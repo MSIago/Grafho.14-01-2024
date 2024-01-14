@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     public Transform target;
     public float speed = 3f;
     private Rigidbody2D rb;
-    public float rotateSpeed = 0.005f;
+    public float rotateSpeed = 0.1f;
     private int vida = 3;
     public UnityEvent morte;
     private void Start()
